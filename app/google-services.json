@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "447609263916",
+    "project_id": "spotify-kotlin-2d329",
+    "storage_bucket": "spotify-kotlin-2d329.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:447609263916:android:4344b66f8c423252c73e89",
+        "android_client_info": {
+          "package_name": "com.builtlab.spotifykotlin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzO-x4OEqZBIk-4LVQbt71LIdsnlIeTQs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
