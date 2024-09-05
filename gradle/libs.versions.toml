@@ -6,6 +6,8 @@ extensionMediasession = "2.19.1"
 glide = "4.16.0"
 hiltAndroid = "2.44"
 hiltAndroidCompiler = "2.44"
+hiltAndroidVersion = "2.50"
+hiltAndroidCompilerVersion = "2.50"
 hiltLifecycleViewmodel = "1.0.0-alpha03"
 hiltCompiler = "1.2.0"
 kotlin = "1.9.0"
@@ -54,6 +56,8 @@ exoplayer-ui = { module = "com.google.android.exoplayer:exoplayer-ui", version.r
 glide = { module = "com.github.bumptech.glide:glide", version.ref = "glide" }
 hilt-android-compiler = { module = "com.google.dagger:hilt-android-compiler", version.ref = "hiltAndroidCompiler" }
 hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "hiltAndroid" }
+hilt-android-compiler-v250 = { module = "com.google.dagger:hilt-android-compiler", version.ref = "hiltAndroidCompilerVersion" }
+hilt-android-v250 = { module = "com.google.dagger:hilt-android", version.ref = "hiltAndroidVersion" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
 androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }

@@ -1,7 +1,6 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
-    id("com.google.devtools.ksp")
     id("kotlin-kapt")
     id("com.google.dagger.hilt.android")
     alias(libs.plugins.google.gms.google.services)
@@ -76,14 +75,11 @@ dependencies {
     implementation(libs.androidx.media3.exoplayer.dash)
     implementation(libs.androidx.media3.ui)
 //    ksp(libs.ksp)
-    ksp(libs.compiler)
+//    ksp(libs.compiler)
 
     implementation(libs.androidx.activity.ktx)
 
-    implementation(libs.hilt.android)
-    ksp(libs.hilt.android.compiler)
-    implementation(libs.androidx.hilt.lifecycle.viewmodel)
-    ksp(libs.androidx.hilt.compiler)
+
 
     implementation(libs.timber)
 
@@ -94,12 +90,11 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
+    implementation(libs.hilt.android.v250)
+    kapt(libs.hilt.android.compiler.v250)
 }
 
-//kapt {
-//    correctErrorTypes = true
-//}
-
-ksp {
-    arg("dagger.hilt.disableCrossCompilationRootValidation", "true")
+kapt {
+    correctErrorTypes = true
 }
