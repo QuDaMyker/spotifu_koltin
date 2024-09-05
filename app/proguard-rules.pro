@@ -19,3 +19,8 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
+
+# Hilt specific rules
+-keep class dagger.hilt.internal.** { *; }
+-keep class androidx.hilt.** { *; }
+-keep class com.builtlab.spotifykotlin.SpotifyApplication { *; }
