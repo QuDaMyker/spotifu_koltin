@@ -1,0 +1,31 @@
+[33mcommit 4fc3944baff2bb7fbec2cde32d9bf6d0db6aef77[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mdevelop[m[33m)[m
+Author: VN The Boss Baby <21520178@gm.uit.edu.vn>
+Date:   Thu Sep 5 14:17:50 2024 +0700
+
+    Revert "firebase config"
+    
+    This reverts commit 5a8cd2702b3b7a80aa04b28124c9cf7946099529.
+
+[33mcommit 3960d4a3b642b4d0d188acc649e5284e80873e1a[m[33m ([m[1;31morigin/develop[m[33m)[m
+Author: VN The Boss Baby <21520178@gm.uit.edu.vn>
+Date:   Thu Sep 5 14:03:35 2024 +0700
+
+    Dragger Hilt Setup
+
+[33mcommit 5a8cd2702b3b7a80aa04b28124c9cf7946099529[m
+Author: VN The Boss Baby <21520178@gm.uit.edu.vn>
+Date:   Wed Sep 4 16:27:08 2024 +0700
+
+    firebase config
+
+[33mcommit f6af3d8438dcfd627db6cb6ac21eff992e9b0bce[m
+Author: VN The Boss Baby <21520178@gm.uit.edu.vn>
+Date:   Wed Sep 4 15:29:22 2024 +0700
+
+    config lib
+
+[33mcommit 9ef5c361f0ad0354881a2fe23b608d8091371902[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m
+Author: VN The Boss Baby <21520178@gm.uit.edu.vn>
+Date:   Wed Sep 4 13:58:53 2024 +0700
+
+    init pj
