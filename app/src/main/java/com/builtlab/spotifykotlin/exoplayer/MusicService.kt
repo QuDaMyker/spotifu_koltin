@@ -25,10 +25,14 @@ class MusicService : MediaBrowserServiceCompat() {
     @Inject
     lateinit var exoplayer: ExoPlayer
 
+    private lateinit var musicNotificationManager: MusicNotificationManager
+
     private val serviceJob = Job()
     private val serviceScope = CoroutineScope(Dispatchers.Main + serviceJob)
 
     private lateinit var mediaSession: MediaSession
+
+    var isForegroundService = false
 
     override fun onCreate() {
         super.onCreate()
@@ -44,8 +48,15 @@ class MusicService : MediaBrowserServiceCompat() {
                     setSessionActivity(it)
                 }
 
+
             }
             .build()
+
+        musicNotificationManager =
+            MusicNotificationManager(this, mediaSession.getToken(), MusicNotificationManager(this)) {
+
+            }
+
     }
 
     override fun onDestroy() {
